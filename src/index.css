@@ -1,0 +1,29 @@
+input {
+  margin: 5px;
+  padding: 10px;
+  width: 200px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  background: orange;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: darkorange;
+}
+
+table {
+  margin: auto;
+  width: 90%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}

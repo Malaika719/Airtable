@@ -1,22 +1,12 @@
-# Airtable Contact Manager
+# React + Vite
 
-A simple contact manager app using **Airtable** as a backend database. This app supports full CRUD (Create, Read, Update, Delete) operations on contact entries, including **name** and **phone number**.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## 📋 Features
+Currently, two official plugins are available:
 
-- Add new contacts (name + phone number)
-- View a list of contacts
-- Edit existing contacts
-- Delete contacts
-- Uses Airtable API for data storage
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
----
+## Expanding the ESLint configuration
 
-## 🚀 Getting Started
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/yourusername/airtable-contact-manager.git
-cd airtable-contact-manager
-
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
